@@ -1,8 +1,11 @@
 # React2Shell Library
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Awesome](https://awesome.re/badge.svg)]
+![Web Security](https://img.shields.io/badge/topic-web%20security-brightgreen)
 [![CVE-2025-55182](https://img.shields.io/badge/CVE-2025--55182-Critical-red)](https://nvd.nist.gov/vuln/detail/CVE-2025-55182)
-[![Topic](https://img.shields.io/badge/Topic-React_Security-blue)]()
+![Resources](https://img.shields.io/badge/resources-updated%20regularly-blue)
+![Community](https://img.shields.io/badge/community-welcome-orange)
+
 
 A curated list of resources regarding **CVE-2025-55182**, the critical Remote Code Execution (RCE) vulnerability in React Server Components known as **"React2Shell"**.
 
