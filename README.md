@@ -45,7 +45,7 @@ A curated list of resources regarding **CVE-2025-55182**, the critical Remote Co
 - [Cloudflare WAF proactively protects against React vulnerability](https://blog.cloudflare.com/waf-rules-react-vulnerability/) - All **Cloudflare** customers are automatically protected, including those on free and paid plans, as long as their React application traffic is proxied through the Cloudflare Web Application Firewall (WAF).
 - [Responding to CVE-2025-55182](https://cloud.google.com/blog/products/identity-security/responding-to-cve-2025-55182) - Guidance from **Google Cloud** on using Cloud Armor `cve-canary` WAF rules.
 - [Fastly's Proactive Protection](https://www.fastly.com/blog/fastlys-proactive-protection-critical-react-rce-cve-2025-55182) - Details on **Fastly's** WAF signals and virtual patching to gain time for patching.
-
+- [ProjectDiscovery Nuclei Template](https://cloud.projectdiscovery.io/library/CVE-2025-55182) - Official Nuclei template for detecting CVE-2025-55182.
 
 ## Community & Discussion
 
@@ -64,12 +64,15 @@ A curated list of resources regarding **CVE-2025-55182**, the critical Remote Co
 - [Github - CVE-2025-55182 PoC by maple3142](https://gist.github.com/maple3142/48bc9393f45e068cf8c90ab865c0f5f3) - PoC for CVE-2025-55182 that works on Next.js 16.0.6.
 - [Github] - PoCs for CVE-2025-55182 by lachlan2k](https://github.com/lachlan2k/React2Shell-CVE-2025-55182-original-poc) - Original Proof-of-Concept's for React2Shell CVE-2025-55182
 - [Github] - CVE-2025-55182-advanced-scanner by zack0x01](https://github.com/zack0x01/CVE-2025-55182-advanced-scanner-) - Simple command-line tool for detecting and exploiting CVE-2025-55182 (React Server Components RCE) in Next.js applications.
-
+- [Github - NextRce by ynsmroztas](https://github.com/ynsmroztas/NextRce) - React Shell & Next.js RSC Exploit Tool.
 
 ## Media & Threat Intel
 
 *Active threat actor reporting and wider industry coverage.*
 
+
+- [](https://www.youtube.com/watch?v=MmdwakT-Ve8) - John Hammond explains the critical Next.js RCE vulnerability (CVE-2025-55182) known as "React2Shell".
+- [From Recon to RCE: Hunting React2Shell (CVE-2025-55182)](https://www.youtube.com/watch?v=Jfw618X7hEU) - Video tutorial by **Lostsec** covering manual and automated hunting strategies, including Shodan dorks and payload delivery.
 - [China-nexus cyber threat groups rapidly exploit React2Shell](https://aws.amazon.com/blogs/security/china-nexus-cyber-threat-groups-rapidly-exploit-react2shell-vulnerability-cve-2025-55182/) - **AWS Security Blog** report on exploitation by groups like Earth Lamia and Jackpot Panda.
 
 ---
